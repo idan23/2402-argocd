@@ -13,4 +13,5 @@ spec:
         app: nginx-site
     spec:
       containers:
-        - name: nginx:alpine
+        - name: nginx
+          image: nginx:alpine
